@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(106, 196, 238);
+    
+  }
+
+  .menu a{
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+main{
+    background-color: blue;
+}
+footer{
+    background-color: orange;
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.elementos{
+    width: 20%;
+    background-color: orangered;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.box{
+    width: 26rem ;
+    height: 16rem;
+    margin: 10px;
+    background-color: rgb(190, 30, 30);
+}
+  
+
